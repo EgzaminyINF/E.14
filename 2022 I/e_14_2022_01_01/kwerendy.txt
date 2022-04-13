@@ -1,0 +1,6 @@
+1. SELECT `id`, `nazwa`, `potoczna` FROM `grzyby` WHERE `jadalny` = 1 
+2. SELECT grzyby.potoczna, rodzina.nazwa FROM grzyby, rodzina, potrawy  
+WHERE rodzina.id=grzyby.rodzina_id and grzyby.potrawy_id=potrawy.id AND
+potrawy.nazwa like 'zupa'
+3. SELECT `nazwa`, `nazwa_pliku` FROM `grzyby` 
+4. ALTER TABLE rodzina ADD COLUMN opis TEXT NULL;
