@@ -1,0 +1,37 @@
+*{
+    font-family: Garamond;
+}
+#baner{
+    background: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#formularz{
+    background: darksalmon;
+    text-align: center;
+    padding: 40px;
+}
+#lewy, #prawy{
+    background: lightsalmon;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+#srodkowy{
+    background: lightsalmon;
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+#stopka{
+    background: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+ol{
+    border: 2px solid rgb(205, 92, 92);
+    font-size: 150%;
+}

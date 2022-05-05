@@ -1,0 +1,46 @@
+*{
+    font-family: Tahoma;
+}
+#logo{
+    background: #28C7A8;
+    text-align: center;
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+#menu{
+    background: #78E3CE;
+    height: 100px;
+    line-height: 100px;
+    width: 70%;
+    float: left;
+}
+#lewy{
+    background: #78E3CE;
+    height: 850px;
+    width: 30%;
+    float: left;
+    clear: both;
+}
+#prawy{
+    background: #28C7A8;
+    height: 850px;
+    width: 70%;
+    float: left;
+}
+#stopka{
+    background: black;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+#menu a{
+    background-color: green;
+    color: orange;
+    padding: 10px 40px 10px 40px;
+    vertical-align: middle;
+}
+#menu a:hover{
+    background-color: orange;
+    color: green;
+}

@@ -1,0 +1,43 @@
+*{
+    font-family: Tahoma;
+}
+#logo, #menu{
+    background: #115C97;
+    color: dodgerblue;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    font-size: 150%;
+    float: left;
+}
+#glowny{
+    background: #ACCEE8;
+    height: 400px;
+    padding: 30px;
+    clear: both;
+}
+#stopka1, #stopka2, #stopka3, #stopka4{
+    background: #115C97;
+    height: 200px;
+    width: 25%;
+    float: left;
+}
+a{
+    color: dodgerblue;
+    margin: 10px;
+}
+table{
+    width: 100%;
+    border: 1px solid blue;
+}
+th{
+    background: #115C97;
+    color: white;
+}
+td{
+    border: 1px dashed blue;
+}
+tr:hover{
+    background: #115C97;
+    color: white;
+}

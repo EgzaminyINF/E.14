@@ -1,0 +1,4 @@
+1. SELECT gatunek, obraz FROM zwierzeta WHERE Gromady_id = 5 
+2. SELECT gatunek, wystepowanie, czy_zagrozony FROM zwierzeta WHERE Gromady_id IN (1,4,5) 
+3. SELECT zwierzeta.id, zwierzeta.gatunek, gromady.nazwa FROM zwierzeta, gromady WHERE zwierzeta.Gromady_id=gromady.id
+4. ALTER TABLE gromady DROP opis
